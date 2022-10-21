@@ -1,0 +1,6 @@
+/venv
+/.idea
+/tests/*
+__pycache__/
+**/__pycache__/
+/main/**/__pycache__/
