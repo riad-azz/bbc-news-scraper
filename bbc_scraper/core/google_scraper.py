@@ -9,8 +9,6 @@ class GoogleScraper(Client):
         HEADERS = {
             "Accept": "*/*",
             "Accept-Language": "en-US,en;q=0.5",
-            "Host": "www.google.com",
-            "Referer": "https://www.google.com/",
             "Alt-Used": "www.google.com",
             "Connection": "Keep-Alive",
             "DNT": "1",

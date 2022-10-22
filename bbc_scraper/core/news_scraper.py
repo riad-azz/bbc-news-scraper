@@ -7,8 +7,6 @@ from bbc_scraper.core import NewsFormatter
 class ScraperBBC(Client):
     def __init__(self):
         HEADERS = {
-            "Host": "www.bbc.com",
-            "Referer": "https://www.bbc.com/",
             "DNT": "1",
             "Sec-Fetch-Dest": "document",
             "Sec-Fetch-Mode": "navigate",
